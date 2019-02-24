@@ -8,12 +8,44 @@ const pages = [
     template: './src/pages/home.hbs'
   },
   {
-    output: './about/index.html',
+    output: './existing_buildings.html',
     content: {
-      title: 'About',
-      description: 'About Page'
+      title: 'budynki istniejące',
+      description: ''
     },
-    template: './src/pages/about.hbs'
+    template: './src/pages/existing_buildings.hbs'
+  },
+  {
+    output: './new_buildings.html',
+    content: {
+      title: 'budynki nowe',
+      description: ''
+    },
+    template: './src/pages/new_buildings.hbs'
+  },
+  {
+    output: './contact.html',
+    content: {
+      title: 'kontakt',
+      description: ''
+    },
+    template: './src/pages/contact.hbs'
+  },
+  {
+    output: './interiors.html',
+    content: {
+      title: 'wnętrza i przestrzenie',
+      description: ''
+    },
+    template: './src/pages/interiors.hbs'
+  },
+  {
+    output: './price_list.html',
+    content: {
+      title: 'cennik',
+      description: ''
+    },
+    template: './src/pages/price_list.hbs'
   }
 ]
 

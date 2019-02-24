@@ -1,0 +1,13 @@
+.navbar {
+    justify-content: center;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 0;
+}
+
+.navbar-collapse {
+    // display: table !important;
+    flex-grow: 0;
+}

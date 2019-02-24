@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar navbar-expand-md navbar-light">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -9,13 +9,21 @@
       <li class="nav-item{{#if home}} active{{/if}}">
         <a class="nav-link" href="/">Home {{current}} <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item{{#if about}} active{{/if}}">
-        <a class="nav-link" href="/about">About</a>
+      <li class="nav-item{{#if new_buildings}} active{{/if}}">
+        <a class="nav-link" href="/new_buildings.html">budynki nowe</a>
+      </li>
+      <li class="nav-item{{#if existing_buildings}} active{{/if}}">
+        <a class="nav-link" href="/existing_buildings.html">budynki istniejące</a>
+      </li>
+      <li class="nav-item{{#if interiors}} active{{/if}}">
+        <a class="nav-link" href="/interiors.html">wnętrza i przestrzenie</a>
+      </li>
+      <li class="nav-item{{#if contact}} active{{/if}}">
+        <a class="nav-link" href="/contact.html">kontakt</a>
+      </li>
+      <li class="nav-item{{#if price_list}} active{{/if}}">
+        <a class="nav-link" href="/price_list.html">cennik</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
